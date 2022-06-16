@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--light dark:15% opacity-->
+    <!--text dark:20% opacity-->
+    <!--dark:40% opacity-->
+    <!--activated dark:55% opacity-->
+    <color name="colorPrimary">#f59120</color>
+    <color name="colorPrimaryDark">#f59120</color>
+    <color name="colorAccent">#f59120</color>
+    <color name="ghost_white">#eeeeee</color>
+    <color name="claret">#d90e07</color>
+    <color name="eco_heating_color">#6fd639</color>
+    <color name="white">#ffffff</color>
+    <color name="colorOverlay">#8cffffff</color>
+    <color name="colorOverlayLight">#41ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="setting_selected">#02000000</color>
+    <color name="gray_off">#50000000</color>
+    <color name="dark_gray_off">#37000000</color>
+    <color name="dark_gray_on">#78000000</color>
+    <color name="color_text">@android:color/black</color>
+    <color name="color_progress">#fbfbfb</color>
+    <color name="color_background">#4b4b4b</color>
+    <color name="blackgray">#ff313131</color>
+    <color name="navigation_blur_overlay">#87000000</color>
+    <color name="navigation_inactive_icon">#939393</color>
+    <color name="blue">#1f8bff</color>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/settings_item_bg">
+    <LinearLayout
+        android:id="@+id/top_border"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/dark_gray_off"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"/>
+
+    <com.github.florent37.singledateandtimepicker.SingleDateAndTimePicker
+        android:id="@+id/time_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        app:picker_curved="true"
+        app:picker_cyclic="true"
+        app:picker_visibleItemCount="7"
+        app:picker_displayDays="false"
+        app:picker_textSize="22sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/bottom_border"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/dark_gray_off"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"/>
+</RelativeLayout>

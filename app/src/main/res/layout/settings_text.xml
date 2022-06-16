@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/settings_item_bg">
+    <LinearLayout
+        android:id="@+id/top_border"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/dark_gray_off"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:fontFamily="@font/sfpro_display_regular"/>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="16dp"
+        android:layout_height="14dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_arrow_right"/>
+
+    <LinearLayout
+        android:id="@+id/bottom_border"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/dark_gray_off"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"/>
+</RelativeLayout>

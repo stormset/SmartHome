@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f59120</color>
+    <color name="colorPrimaryDark">#f59120</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorOverlay">#f9ffffff</color>
+    <color name="swipeRectColor">#d06e6e6e</color>
+    <color name="colorOverlay2">#87ffffff</color>
+    <color name="colorOverlay4">#92f7f7f7</color>
+    <color name="colorOverlay3">#f7ffffff</color>
+    <color name="colorOverlay_picker">#d0ffffff</color>
+</resources>

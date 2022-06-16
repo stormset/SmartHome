@@ -1,0 +1,16 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 33
+
+    defaultConfig {
+        minSdkVersion 17
+        targetSdkVersion 33
+        versionCode 3
+        versionName "0.0.3"
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}

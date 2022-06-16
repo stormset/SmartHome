@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SmartHome</string>
+    <string name="insufficient_permissions">Insufficient permissions.</string>
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core functionality.</string>
+    <string name="state_off">Off</string>
+    <string name="state_on">On</string>
+    <string name="heat_set_to">Heating to %1$.1f°</string>
+    <string name="cool_set_to">Cooling to %1$.1f°</string>
+    <string name="temperature_hold">"Holding %1$.1f°"</string>
+    <string name="fan">"Circulating"</string>
+    <string name="brightness_level" translatable="false">%1$d %%</string>
+    <string name="not_responding">Not responding</string>
+    <string name="settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="rooms">Rooms</string>
+    <string name="automation">Automation</string>
+    <string name="users">Users</string>
+    <string name="edit">Edit</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <string name="invitation_description">Invite people to control accessories in your home. All people in a shared home can control accessories, see when they are used, and receive notifications about them.</string>
+</resources>

@@ -1,0 +1,4 @@
+include ':app', 'expandablerecyclerview'
+include ':BlurView'
+include ':TemperatureSelector'
+include ':SwitchButton'

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Home+</string>
+    <string name="state_off">Ki</string>
+    <string name="state_on">Be</string>
+    <string name="heat_set_to">Fűtés %1$.1f°</string>
+    <string name="cool_set_to">Hűtés %1$.1f°</string>
+    <string name="not_responding">Nem válaszol</string>
+    <string name="temperature_hold">Tartás %1$.1f°</string>
+    <string name="fan">Keringetés</string>
+    <string name="settings">Beállítások</string>
+    <string name="home">Otthon</string>
+    <string name="rooms">Szobák</string>
+    <string name="automation">Automatizásás</string>
+    <string name="users">Felhasználók</string>
+    <string name="edit">Szerk.</string>
+    <string name="disabled">Letiltva</string>
+    <string name="enabled">Engedélyezve</string>
+</resources>

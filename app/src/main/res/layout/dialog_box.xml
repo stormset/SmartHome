@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_root"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/dialog_background_shape"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Az eszköz nem válaszol"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/sfpro_display_medium"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:text="A(z) lámpa nevű eszközzel a kommunikáció meghiúsult"
+            android:layout_gravity="center"
+            android:fontFamily="@font/sfpro_display_regular"
+            android:textSize="13sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@android:color/black"
+        android:alpha="0.2"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/details"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Részletek"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:fontFamily="@font/sfpro_display_regular"
+                android:textSize="16sp"
+                android:textColor="@color/blue"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"/>
+            <TextView
+                android:id="@+id/btn_yes"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="OK"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:fontFamily="@font/sfpro_display_regular"
+                android:textSize="16sp"
+                android:textColor="@color/blue"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0.2dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@android:color/black"
+            android:alpha="0.2"/>
+    </RelativeLayout>
+</LinearLayout>

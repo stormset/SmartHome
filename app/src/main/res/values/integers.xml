@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ic_leaving">0</integer>
+    <integer name="ic_arriving">1</integer>
+    <integer name="ic_eco">2</integer>
+    <integer name="ic_comfort">3</integer>
+    <integer name="ic_breakfast">4</integer>
+    <integer name="ic_night">5</integer>
+    <integer name="ic_sleeping">6</integer>
+</resources>
